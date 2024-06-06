@@ -34,4 +34,4 @@ stages:
         azureSubscription: 'Azure subscription 1 (4541453c-061c-4e4d-937c-42be37c2776f)'
         azureContainerRegistry: '{"loginServer":"myapp03.azurecr.io", "id" : "/subscriptions/4541453c-061c-4e4d-937c-42be37c2776f/resourceGroups/MyAPP-RG/providers/Microsoft.ContainerRegistry/registries/Myapp03"}'
         dockerComposeFile: '**/docker-compose.yml'
-        action: 'Run a Docker Compose command'
+        action: 'Build services'
